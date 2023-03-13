@@ -19,7 +19,11 @@ public class Main {
         } else {
             bonus = 0;
         }
+        System.out.println("Вам начислено: ");
+        System.out.println((bonus) + "рублей");
+
         System.out.println((initialAccount + amountDeposit + bonus) + " Сумма на счету");
+
     }
 
 }
